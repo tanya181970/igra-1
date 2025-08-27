@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Викторина: Как изменилась политическая карта мира после Второй мировой войны?</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { text-align: center; }
+        .question { margin-bottom: 20px; }
+        .question h3 { margin-bottom: 10px; }
+        label { display: block; margin-bottom: 5px; }
+        #submit { display: block; margin: 20px auto; padding: 10px 20px; }
+        #result { text-align: center; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Викторина: Как изменилась политическая карта мира после Второй мировой войны?</h1>
+    <p>Цель: Объяснить ключевые изменения на политической карте мира после WWII и развить навыки анализа исторических карт и составления сравнительных выводов. Выберите правильный ответ для каждого вопроса.</p>
+    
+    <form id="quizForm">
+        <div class="question">
+            <h3>1. Как изменились границы Германии после Второй мировой войны?</h3>
+            <label><input type="radio" name="q1" value="a"> Германия расширила свои территории на восток.</label>
+            <label><input type="radio" name="q1" value="b"> Германия была разделена на Западную и Восточную части.</label>
+            <label><input type="radio" name="q1" value="c"> Германия сохранила все довоенные границы.</label>
+            <label><input type="radio" name="q1" value="d"> Германия объединилась с Австрией.</label>
+        </div>
+        
+        <div class="question">
+            <h3>2. Какое ключевое изменение произошло в Европе в результате разделения на блоки?</h3>
+            <label><input type="radio" name="q2" value="a"> Европа объединилась в единое государство.</label>
+            <label><input type="radio" name="q2" value="b"> Европа была разделена на Западный (США) и Восточный (СССР) блоки.</label>
+            <label><input type="radio" name="q2" value="c"> Все европейские страны стали нейтральными.</label>
+            <label><input type="radio" name="q2" value="d"> Европа потеряла все колонии в Африке.</label>
+        </div>
+        
+        <div class="question">
+            <h3>3. Как изменилась политическая карта Азии в процессе деколонизации после WWII?</h3>
+            <label><input type="radio" name="q3" value="a"> Япония сохранила все свои колонии.</label>
+            <label><input type="radio" name="q3" value="b"> Индия и Пакистан получили независимость от Британии в 1947 году.</label>
+            <label><input type="radio" name="q3" value="c"> Китай стал частью Советского Союза.</label>
+            <label><input type="radio" name="q3" value="d"> Корея осталась единой страной.</label>
+        </div>
+        
+        <div class="question">
+            <h3>4. Какое новое государство появилось на Ближнем Востоке в 1948 году?</h3>
+            <label><input type="radio" name="q4" value="a"> Саудовская Аравия.</label>
+            <label><input type="radio" name="q4" value="b"> Израиль.</label>
+            <label><input type="radio" name="q4" value="c"> Турция.</label>
+            <label><input type="radio" name="q4" value="d"> Иран.</label>
+        </div>
+        
+        <div class="question">
+            <h3>5. Как изменились границы Польши после войны?</h3>
+            <label><input type="radio" name="q5" value="a"> Польша сдвинулась на запад, потеряв восточные территории и получив западные от Германии.</label>
+            <label><input type="radio" name="q5" value="b"> Польша расширилась на юг.</label>
+            <label><input type="radio" name="q5" value="c"> Польша осталась без изменений.</label>
+            <label><input type="radio" name="q5" value="d"> Польша объединилась с Чехословакией.</label>
+        </div>
+        
+        <div class="question">
+            <h3>6. Какое изменение произошло с Кореей после WWII?</h3>
+            <label><input type="radio" name="q6" value="a"> Корея стала колонией Японии.</label>
+            <label><input type="radio" name="q6" value="b"> Корея была разделена на Северную (СССР) и Южную (США) части.</label>
+            <label><input type="radio" name="q6" value="c"> Корея объединилась с Китаем.</label>
+            <label><input type="radio" name="q6" value="d"> Корея получила независимость как единое государство.</label>
+        </div>
+        
+        <div class="question">
+            <h3>7. Как деколонизация повлияла на карту Африки?</h3>
+            <label><input type="radio" name="q7" value="a"> Африка осталась под контролем европейских держав.</label>
+            <label><input type="radio" name="q7" value="b"> Многие африканские страны, такие как Гана и Алжир, получили независимость в 1950-1960-х.</label>
+            <label><input type="radio" name="q7" value="c"> Африка была разделена между США и СССР.</label>
+            <label><input type="radio" name="q7" value="d"> Все африканские страны объединились в одну федерацию.</label>
+        </div>
+        
+        <div class="question">
+            <h3>8. Какое изменение произошло с Японией после войны?</h3>
+            <label><input type="radio" name="q8" value="a"> Япония расширила империю в Азии.</label>
+            <label><input type="radio" name="q8" value="b"> Япония потеряла все колонии и была оккупирована США.</label>
+            <label><input type="radio" name="q8" value="c"> Япония стала частью Китая.</label>
+            <label><input type="radio" name="q8" value="d"> Япония сохранила Корею как колонию.</label>
+        </div>
+        
+        <div class="question">
+            <h3>9. Как изменилась роль Советского Союза на политической карте?</h3>
+            <label><input type="radio" name="q9" value="a"> СССР потерял все европейские территории.</label>
+            <label><input type="radio" name="q9" value="b"> СССР установил контроль над Восточной Европой, создав сателлитные государства.</label>
+            <label><input type="radio" name="q9" value="c"> СССР объединился с США.</label>
+            <label><input type="radio" name="q9" value="d"> СССР распался на независимые республики.</label>
+        </div>
+        
+        <div class="question">
+            <h3>10. Какое глобальное учреждение было создано после WWII для поддержания мира?</h3>
+            <label><input type="radio" name="q10" value="a"> Лига Наций.</label>
+            <label><input type="radio" name="q10" value="b"> Организация Объединенных Наций (ООН).</label>
+            <label><input type="radio" name="q10" value="c"> НАТО.</label>
+            <label><input type="radio" name="q10" value="d"> Варшавский договор.</label>
+        </div>
+        
+        <button type="button" id="submit">Проверить ответы</button>
+    </form>
+    
+    <div id="result"></div>
+    
+    <script>
+        const correctAnswers = {
+            q1: 'b',
+            q2: 'b',
+            q3: 'b',
+            q4: 'b',
+            q5: 'a',
+            q6: 'b',
+            q7: 'b',
+            q8: 'b',
+            q9: 'b',
+            q10: 'b'
+        };
+        
+        document.getElementById('submit').addEventListener('click', function() {
+            let score = 0;
+            const form = document.getElementById('quizForm');
+            for (let i = 1; i <= 10; i++) {
+                const selected = form.querySelector(`input[name="q${i}"]:checked`);
+                if (selected && selected.value === correctAnswers[`q${i}`]) {
+                    score++;
+                }
+            }
+            document.getElementById('result').innerHTML = `Вы набрали ${score} из 10 баллов. Анализируйте изменения на картах до и после WWII для лучших выводов!`;
+        });
+    </script>
+</body>
+</html>
